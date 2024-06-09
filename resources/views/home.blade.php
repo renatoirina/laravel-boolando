@@ -1,5 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Home page</h1>
+    <div class="home-cont d-flex justify-content-center flex-wrap">
+        @foreach ($products as $product)
+            @include('partials.product-card')
+        @endforeach
+        
+    </div>
 @endsection

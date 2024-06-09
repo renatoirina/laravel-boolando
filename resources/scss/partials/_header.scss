@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255 104 1);
+
+    div {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+
+        ul {
+            height: 100%;
+            margin: 0;
+            list-style: none;
+
+            a {
+                font-size: 1.25rem;
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+
+        img {
+            padding: 30px;
+        }
+
+        ;
+    }
+}
