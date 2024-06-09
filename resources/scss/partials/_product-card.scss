@@ -17,12 +17,31 @@
         }
     }
 
+    .like-badge {
+        background-color: white;
+
+        .liked {
+            display: none;
+        }
+    }
+
     .images:hover {
+
         .imgback {
             display: block;
         }
 
         .imgfront {
+            display: none;
+        }
+    }
+
+    .like-badge:hover {
+        .liked {
+            color: red;
+            display: block;
+        }
+        .unliked {
             display: none;
         }
     }

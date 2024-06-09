@@ -10,13 +10,20 @@
                 </div>
                 <!-- IMAGES -->
 
-                {{-- ITEM INFO --}}
+                <!-- LIKE BADGE -->
+                <div class="like-badge">
+                    <span class="unliked"><i class="fa-regular fa-heart"></i></span>
+                    <span class="liked"><i class="fa-solid fa-heart"></i></span>
+                </div>
+                <!-- LIKE BADGE -->
+
+                <!-- CARD TEXT -->
                 <div class="item-info text-center">
                     <a class="brand" href="">{{ $product['brand'] }}</a>
                     <h3>{{ $product['name'] }}</h3>
                     <span class="newprice">{{ $product['price'] }}€</span>
                 </div>
-                {{-- ITEM INFO --}}
+                <!-- CARD TEXT -->
             </div>
         </div>
         @endforeach
