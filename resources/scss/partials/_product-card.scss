@@ -3,15 +3,28 @@
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 8px;
-}
 
-.images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    .images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 8px;
+        margin-bottom: 10px;
+
+        .imgback {
+            display: none;
+        }
+    }
+
+    .images:hover {
+        .imgback {
+            display: block;
+        }
+        .imgfront {
+            display: none;
+        }
+    }
 }
 
 img {

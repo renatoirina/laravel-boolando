@@ -5,7 +5,8 @@
             <div class="ms-card flex-grow-1">
                 <!--IMAGES -->
                 <div class="images">
-                    <img class="imgnormal img-fluid" src="{{ asset('img/'.$product['frontImage']) }}" alt="Product Image">
+                    <img class="imgnormal img-fluid imgfront" src="{{ asset('img/'.$product['frontImage']) }}" alt="Product Image">
+                    <img class="imgnormal img-fluid imgback" src="{{ asset('img/'.$product['backImage']) }}" alt="Product Image">
                 </div>
                 <!-- IMAGES -->
 
